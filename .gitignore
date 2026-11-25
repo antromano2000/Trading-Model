@@ -8,3 +8,13 @@ packages/
 
 *.user
 *.suo
+
+# Local dashboard runtimes, dependencies, and logs
+/.runtime/
+/.venv/
+/server/node_modules/
+/logs/
+__pycache__/
+prices.sqlite3
+prices.sqlite3-wal
+prices.sqlite3-shm
